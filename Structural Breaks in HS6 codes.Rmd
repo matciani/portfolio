@@ -21,7 +21,7 @@ p_load(tidyverse, dplyr, ggplot2, scales, plotly, flexdashboard, tidyr, shiny, r
 
 ```{r}
 ## Loading the necessary data
-#setwd("C:/Users/Ciani/OneDrive - Kiel Institut für Weltwirtschaft/Disrputive Technologies/Shiny App/")
+#setwd("DIRECTORY TO BE ADDED")
 
 igpc_data <- read_csv("data/clean_data.csv", show_col_types = FALSE)
 trade_data <- read_csv("data/trade_data.csv", show_col_types = FALSE)
@@ -521,4 +521,5 @@ output$ipc_table <- renderUI({
 })
 
 ```
+
 
