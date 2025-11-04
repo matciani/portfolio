@@ -7,7 +7,12 @@ They are not "end-goals" or outputs, but instruments that I have built for mysel
 
 ### Structural Breaks in HS6 code
 
-The goal of the research project is to analyse what happens to incumbents of old technologies. To better identify this "old technologies" and have a better overview of the large dataset we are using, I built this dashboards to look at the trends in the value of trade all HS6 goods available in the BACI data. One can text search for any good. Furthermore, I replicated the IGPC Indicator (Fetzer et alii 2024) that takes into consideration not only value of trade of good i, but also all values of connected goods. Lastly, we used the conversion table from PATSTAT to connect HS6 goods to IPC classes to learn more about the levels of innovation within that sector. 
+This dashboard supports research on the evolution of technologies in international trade. It visualizes trends in HS6 product-level trade data from BACI and helps identify technologies in decline.
+
+Key features:
+* Search and visualize trade values for any HS6 product  
+* Reproduce the IGPC indicator (Fetzer et al., 2024) to show network-weighted product importance  
+* Connect HS6 categories with patent IPC classes using the PATSTAT concordance
 
 **App:** [Shiny Link](https://matciani.shinyapps.io/structural_breaks/#section-trade-data)  
 **Code:** `Structural Breaks in HS6 goods.Rmd`
@@ -22,8 +27,12 @@ Patent Data: [PATSTAT](https://www.epo.org/en/searching-for-patents/business/pat
 
 ### Geography of Conflicts
 
-We built this dashboard to visualise conflicts distributed in time and geographically. The events are colour-coded based on the type of conflict (state-based, non-state, and one-sided) and proportional in size to the severity of the event in terms of the number of deaths. The UCDP already has a public dashboard, but we were interested in recreating it to be able to make it better fit our research needs. 
+This dashboard maps and visualizes conflict events over time using UCDP GED data. It allows users to explore the temporal and geographic distribution of violent events.
 
+Key features:
+* Map conflicts by type (state-based, non-state, one-sided)  
+* Bubble size proportional to event severity (fatalities)  
+* Interactive filters to explore conflict dynamics across time and space
 
 **App:** [Shiny Link](https://matciani.shinyapps.io/Conflicts/)  
 **Code:** `Geography of Conflicts.R`
