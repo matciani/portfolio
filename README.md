@@ -1,6 +1,6 @@
 # Portfolio
 
-This repository contains examples of Shiny dashboards I developed for empirical economic research and a webscraper.
+This repository contains examples of Shiny dashboards I developed for empirical economic research and a web-based automation tool.
 They are not "end-goals" or outputs, but instruments that I have built for myself and my colleagues to have a better overview of the data. 
 
 
