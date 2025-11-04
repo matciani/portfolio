@@ -25,7 +25,7 @@ Patent Data: PATSTAT
 We built this dashboard
 
 
-**Demo:** https://yourshinyapp.shinyapps.io/innovation/  
+**Demo:** [https://yourshinyapp.shinyapps.io/innovation/](https://yourshinyapp.shinyapps.io/innovation/)  
 **Code:** `firm-innovation-app/`
 
 ---
