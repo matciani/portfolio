@@ -6,17 +6,17 @@ They are not "end-goals" or outputs, but instruments that I have built for mysel
 
 ---
 
-### Structural Breaks in HS6 code
+### Trade and Patents at HS6 Code level
 
-This dashboard supports research on the evolution of technologies in international trade. It visualizes trends in HS6 product-level trade data from BACI and helps identify technologies in decline.
+This dashboard supports research on the evolution of technologies in international trade. It visualizes trends in HS6 product-level trade data from BACI and plots the number of patents published in each year for the most relevant IPC4 class.
 
 Key features:
 * Search and visualize trade values for any HS6 product  
 * Reproduce the IGPC indicator (Fetzer et al., 2024) to show network-weighted product importance  
 * Connect HS6 categories with patent IPC classes using the PATSTAT concordance
 
-**App:** [Shiny Link](https://matciani.shinyapps.io/structural_breaks/#section-trade-data)  
-**Code:** `Structural Breaks in HS6 goods.Rmd`
+**App:** [Shiny Link](https://matciani.shinyapps.io/trade_and_patents_at_hs6_level/)  
+**Code:** `Trade and Patents at HS6 level.Rmd`
 
 
 #### Sources:
