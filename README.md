@@ -15,14 +15,15 @@ Key features:
 * Reproduce the IGPC indicator (Fetzer et al., 2024) to show network-weighted product importance  
 * Connect HS6 categories with patent IPC classes using the PATSTAT concordance
 
-**App:** [Shiny Link](https://matciani.shinyapps.io/trade_and_patents_at_hs6_level/)  
+**App:** <a href="https://matciani.shinyapps.io/trade_and_patents_at_hs6_level/" target="_blank" rel="noopener noreferrer">Shiny Link</a>
 **Code:** `Trade and Patents at HS6 level.Rmd`
 
 
 #### Sources:
-Trade data: [BACI CEPII](https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37)  
-Integrated Global Product Centrality: [AI-Generated Production Network](https://aipnet.io/paper/)  
-Patent Data: [PATSTAT](https://www.epo.org/en/searching-for-patents/business/patstat) 
+Trade data: <a href="https://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele_item.asp?id=37" target="_blank" rel="noopener noreferrer">BACI CEPII</a>  
+Integrated Global Product Centrality: <a href="https://aipnet.io/paper/" target="_blank" rel="noopener noreferrer">AI-Generated Production Network</a>  
+Patent Data: <a href="https://www.epo.org/en/searching-for-patents/business/patstat" target="_blank" rel="noopener noreferrer">PATSTAT</a>  
+
 
 ---
 
@@ -35,11 +36,11 @@ Key features:
 * Bubble size proportional to event severity (fatalities)  
 * Interactive filters to explore conflict dynamics across time and space
 
-**App:** [Shiny Link](https://matciani.shinyapps.io/Conflicts/)  
+**App:** <a href="https://matciani.shinyapps.io/Conflicts/" target="_blank" rel="noopener noreferrer">Shiny Link</a>
 **Code:** `Geography of Conflicts.R`
 
 #### Source: 
-Conflict data: [UCDP Georeferenced Event Dataset (GED)](https://ucdp.uu.se/)  
+Conflict data: Conflict data: <a href="https://ucdp.uu.se/" target="_blank" rel="noopener noreferrer">UCDP Georeferenced Event Dataset (GED)</a> 
 
 
 --- 
@@ -50,7 +51,7 @@ This tool automates the extraction of firm-level information from the Orbis data
 
 Key features:
 * Logs in securely and retrieves a list of firms
-* Searches each firm in the database interface and downloads thier associated patent portfolios
+* Searches each firm in the database interface and downloads its associated patent portfolios
 
 **Code:** `Patent Data from Firm Profile.py`
 
